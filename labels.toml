@@ -1,0 +1,22 @@
+default = "nb"
+
+[nb]
+handler   = "Saksbehandler"
+our-date  = "Vår dato"
+our-ref   = "Vår ref."
+your-date = "Deres dato"
+your-ref  = "Deres ref."
+page      = "{n} av {total}"
+
+[nn]
+handler   = "Saksbehandlar"
+your-date = "Dykkar dato"
+your-ref  = "Dykkar ref."
+
+[en]
+handler   = "Case officer"
+our-date  = "Our date"
+our-ref   = "Our reference"
+your-date = "Your date"
+your-ref  = "Your reference"
+page      = "Page {n} of {total}"

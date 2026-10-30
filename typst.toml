@@ -1,0 +1,9 @@
+[package]
+name = "nor-letter"
+version = "0.2.0"
+entrypoint = "lib.typ"
+description = "Business documents (letters, memo etc) according to Norwegian Standard 4129(1995)"
+
+[template]
+path = "template"
+entrypoint = "main.typ"
