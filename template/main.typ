@@ -4,6 +4,7 @@
   // ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
   // ┃                      DOCUMENT DATA                      ┃
   // ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+
   subject:        none,
 
   // Metadata fields mostly for documents that are not letters
@@ -31,11 +32,11 @@
   // ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
   // ┃                         SENDER                          ┃
   // ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+
   // Name and logo fields for header. Must have _either_ company or person fields.
   // Complete address and other relevant details go in footer.
   // company: (name: "", department: "", handler: "")
   // person: (name: "", address: "")
-
   company: (
     name: "Vandelay Industries",
     department: "Exports department",
@@ -60,6 +61,7 @@
   // ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
   // ┃                     LAYOUT OPTIONS                      ┃
   // ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+
   folding-marks: true,              // fold marks for E65/DL window envelopes
   two-sided: false,                 // mirror even pages (binding margin on the right)
   even-margins: true,               // body text right margin = left margin
